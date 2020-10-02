@@ -154,6 +154,20 @@
                     </ul>
                 </li>
 
+                <li class="treeview">
+                    <a href="#">
+                        <i class="fa fa-book" aria-hidden="true"></i>
+                        <span>حساب دفتری</span>
+                        <span class="pull-left-container">
+                <i class="fa fa-angle-right pull-left"></i>
+                        </span>
+                    </a>
+                    <ul class="treeview-menu">
+                        <li><a href="pages/charts/morris.html"><i class="fa fa-plus-square" aria-hidden="true"></i></i>ایجاد</a></li>
+                        <li><a href="pages/charts/flot.html"><i class="fa fa-eye" aria-hidden="true"></i>نمایش</a></li>
+
+                    </ul>
+                </li>
 
             </ul>
         </section>
@@ -176,7 +190,7 @@
 
                         <div class="info-box-content">
                             <span class="info-box-text">فروش</span>
-                            <span class="info-box-number">760</span>
+                            <span class="info-box-number">0</span>
                         </div>
                         <!-- /.info-box-content -->
                     </div>
@@ -190,7 +204,7 @@
 
                         <div class="info-box-content">
                             <span class="info-box-text">مشتری ها</span>
-                            <span class="info-box-number">2,000</span>
+                            <span class="info-box-number">0</span>
                         </div>
                         <!-- /.info-box-content -->
                     </div>
@@ -221,7 +235,7 @@
                                     <!-- /.progress-group -->
                                     <div class="progress-group">
                                         <span class="progress-text">تعداد محصول</span>
-                                        <span class="progress-number"><b>310</b></span>
+                                        <span class="progress-number"><b>0</b></span>
 
                                         <div class="progress sm">
                                             <div class="progress-bar progress-bar-red"
@@ -253,7 +267,7 @@
 
                                     <div class="col-sm-4 col-xs-4">
                                         <div class="description-block border-right">
-                                            <h5 class="description-header">10,390.90 تومان</h5>
+                                            <h5 class="description-header">1 تومان</h5>
                                             <span class="description-text">فروش کل</span>
                                         </div>
                                         <!-- /.description-block -->
@@ -261,7 +275,7 @@
                                     <!-- /.col -->
                                     <div class="col-sm-4 col-xs-4">
                                         <div class="description-block border-right">
-                                            <h5 class="description-header">24,813.53 تومان</h5>
+                                            <h5 class="description-header">2 تومان</h5>
                                             <span class="description-text">سود کل</span>
                                         </div>
                                         <!-- /.description-block -->
@@ -281,6 +295,20 @@
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer text-left">
+          <div style="float: right;">
+          <span id="show_time_1" style="font-size:18px;font-family:tahoma,arial;">
+          <script language="JavaScript">
+          function show_time_1(){
+    d=new Date();
+    H=d.getHours();H=(H<10)?"0"+H:H;
+    i=d.getMinutes();i=(i<10)?"0"+i:i;
+    s=d.getSeconds();s=(s<10)?"0"+s:s;
+    document.getElementById('show_time_1').innerHTML=H+":"+i+":"+s;
+    setTimeout("show_time_1()",1000);/* 1 sec */
+} show_time_1();
+          </script>
+          </span>
+          </div>
         <strong>تمامی حقوق این نرم افزار برای <a href="https://www.adobeyar.ir" style="color:#468266;">آدوبی یار</a>
             محفوظ میباشد</strong>
     </footer>
