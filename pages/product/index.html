@@ -7,20 +7,20 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
-    <link rel="stylesheet" href="dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="../../dist/css/bootstrap-theme.css">
     <!-- Bootstrap rtl -->
-    <link rel="stylesheet" href="dist/css/rtl.css">
+    <link rel="stylesheet" href="../../dist/css/rtl.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../bower_components/font-awesome/css/font-awesome.min.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" href="bower_components/Ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../../bower_components/Ionicons/css/ionicons.min.css">
     <!-- jvectormap -->
-    <link rel="stylesheet" href="bower_components/jvectormap/jquery-jvectormap.css">
+    <link rel="stylesheet" href="../../bower_components/jvectormap/jquery-jvectormap.css">
     <!-- Theme style -->
-    <link rel="stylesheet" href="dist/css/AdminLTE.css">
+    <link rel="stylesheet" href="../../dist/css/AdminLTE.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
     folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="../../dist/css/skins/_all-skins.min.css">
     <!-- Google Font -->
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -37,8 +37,13 @@
         .ic-me:hover {
             color: #468266 !important;
         }
+        label{
+            font-family: auto;
+            font-size: 15px;
+        }
+
     </style>
-    <link rel="stylesheet" href="dist/css/persian-datepicker-0.4.5.min.css">
+    <link rel="stylesheet" href="../../dist/css/persian-datepicker-0.4.5.min.css">
 </head>
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
@@ -132,8 +137,8 @@
                         </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="pages/product/index.html"><i class="fa fa-plus-square" aria-hidden="true"></i></i>ایجاد محصول</a></li>
-                        <li><a href="pages/product/manage.html"><i class="fa fa-eye" aria-hidden="true"></i>نمایش</a></li>
+                        <li><a href="pages/charts/morris.html"><i class="fa fa-plus-square" aria-hidden="true"></i></i>ایجاد محصول</a></li>
+                        <li><a href="pages/charts/flot.html"><i class="fa fa-eye" aria-hidden="true"></i>نمایش</a></li>
 
                     </ul>
                 </li>
@@ -238,140 +243,97 @@
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper" style="background-color:#58515185 !important;">
-        <!-- Main content -->
         <section class="content">
-            <!-- Info boxes -->
-            <div class="row">
-                <!-- fix for small devices only -->
-                <div class="clearfix visible-sm-block"></div>
 
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="info-box">
-                        <span class="info-box-icon bg-green" style="background-color:#468266 !important"><i
-                                class="ion ion-ios-cart-outline"></i></span>
+<div class="row">
 
-                        <div class="info-box-content">
-                            <span class="info-box-text">فروش</span>
-                            <span class="info-box-number">0</span>
-                        </div>
-                        <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                </div>
-                <!-- /.col -->
-                <div class="col-md-6 col-sm-6 col-xs-12">
-                    <div class="info-box">
-                        <span class="info-box-icon bg-yellow" style="background-color:#ce9d4f !important;"><i
-                                class="ion ion-ios-people-outline"></i></span>
+    <div class="col-lg-12 col-md-12">
 
-                        <div class="info-box-content">
-                            <span class="info-box-text">مشتری ها</span>
-                            <span class="info-box-number">0</span>
-                        </div>
-                        <!-- /.info-box-content -->
-                    </div>
-                    <!-- /.info-box -->
-                </div>
-                <!-- /.col -->
+        <div class="box box-primary">
+            <div class="box-header with-border">
+                <h3 class="box-title"></h3>
             </div>
-            <!-- /.row -->
+            <!-- /.box-header -->
+            <!-- form start -->
+            <form role="form">
+                <div class="box-body">
 
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="box">
-                        <div class="box-header with-border">
-                            <h3 class="box-title">گزارش ماهانه</h3>
+                    <div class="row">
 
-                            <div class="box-tools pull-right">
-                                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i
-                                        class="fa fa-minus"></i>
-                                </button>
-                                <button type="button" class="btn btn-box-tool" data-widget="remove"><i
-                                        class="fa fa-times"></i></button>
+                        <div class="col-md-2 col-lg-2">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">دسته بندی : </label>
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="دسته بندی">
                             </div>
                         </div>
-                        <!-- /.box-header -->
-                        <div class="box-body">
-                            <div class="row">
-                                <div class="col-md-8">
-                                    <!-- /.progress-group -->
-                                    <div class="progress-group">
-                                        <span class="progress-text">تعداد محصول</span>
-                                        <span class="progress-number"><b>0</b></span>
+                        <div class="col-md-2 col-lg-2">
 
-                                        <div class="progress sm">
-                                            <div class="progress-bar progress-bar-red"
-                                                 style="width: 110%;background-color:#468266;"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.col -->
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">نام محصول : </label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="نام محصول">
                             </div>
-                            <!-- /.row -->
+
                         </div>
+                        <div class="col-md-2 col-lg-2">
 
-                        <!-- ./box-body -->
-                        <div class="box-footer">
-                            <div class="row">
-                                <div class="col-sm-12 col-xs-12">
-
-
-                                    <div class="col-sm-4 col-xs-4">
-                                        <div class="description-block border-right">
-                                            <form action="" method="">
-                                        <input type="radio" class="" id="radio-g">
-                                            <label>ماهانه</label>
-                                        <input type="button" class="example1"/>
-                                                <button type="submit" class="btn" style="height: 28px; !important;">ارسال</button>
-                                            </form>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-4 col-xs-4">
-                                        <div class="description-block border-right">
-                                            <h5 class="description-header">1 تومان</h5>
-                                            <span class="description-text">فروش کل</span>
-                                        </div>
-                                        <!-- /.description-block -->
-                                    </div>
-                                    <!-- /.col -->
-                                    <div class="col-sm-4 col-xs-4">
-                                        <div class="description-block border-right">
-                                            <h5 class="description-header">2 تومان</h5>
-                                            <span class="description-text">سود کل</span>
-                                        </div>
-                                        <!-- /.description-block -->
-                                    </div>
-                                </div>
-                                <!-- /.row -->
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">قیمت محصول : </label>
+                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="قیمت محصول">
                             </div>
-                            <!-- /.box-footer -->
+
                         </div>
-                        <!-- /.box -->
+                        <div class="col-6"></div>
                     </div>
-                    <!-- /.col -->
+                    <div class="row">
+
+                        <div class="col-md-8 col-lg-8">
+                            <div class="form-group">
+                                <label for="description">توضیحات :</label>
+                            <textarea class="form-control" id="description" placeholder="توضیحات ...">
+
+                            </textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputFile">تصویر</label>
+                        <input type="file" id="exampleInputFile" title="تصویر محصول">
+
+                        <p class="help-block" style="font-size: 11px;">JPG-GIF-JPEG-PNG</p>
+                    </div>
                 </div>
-            </div>
-                <!-- /.row -->
+                <!-- /.box-body -->
+
+                <div class="box-footer">
+                    <button type="submit" class="btn btn-primary">ثبت</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+
         </section>
-        <!-- /.content -->
     </div>
     <!-- /.content-wrapper -->
     <footer class="main-footer text-left">
-          <div style="float: right;">
+        <div style="float: right;">
           <span id="show_time_1" style="font-size:18px;font-family:tahoma,arial;">
           <script language="JavaScript">
           function show_time_1(){
-    d=new Date();
-    H=d.getHours();H=(H<10)?"0"+H:H;
-    i=d.getMinutes();i=(i<10)?"0"+i:i;
-    s=d.getSeconds();s=(s<10)?"0"+s:s;
-    document.getElementById('show_time_1').innerHTML=H+":"+i+":"+s;
-    setTimeout("show_time_1()",1000);/* 1 sec */
-} show_time_1();
+              d=new Date();
+              H=d.getHours();H=(H<10)?"0"+H:H;
+              i=d.getMinutes();i=(i<10)?"0"+i:i;
+              s=d.getSeconds();s=(s<10)?"0"+s:s;
+              document.getElementById('show_time_1').innerHTML=H+":"+i+":"+s;
+              setTimeout("show_time_1()",1000);/* 1 sec */
+          } show_time_1();
           </script>
           </span>
-          </div>
+        </div>
         <strong>تمامی حقوق این نرم افزار برای <a href="https://www.adobeyar.ir" style="color:#468266;">آدوبی یار</a>
             محفوظ میباشد</strong>
     </footer>
@@ -384,28 +346,28 @@
     }
 </script>
 <!-- jQuery 3 -->
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../../bower_components/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- FastClick -->
-<script src="bower_components/fastclick/lib/fastclick.js"></script>
+<script src="../../bower_components/fastclick/lib/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/adminlte.min.js"></script>
+<script src="../../dist/js/adminlte.min.js"></script>
 <!-- Sparkline -->
-<script src="bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
+<script src="../../bower_components/jquery-sparkline/dist/jquery.sparkline.min.js"></script>
 <!-- jvectormap  -->
-<script src="plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+<script src="../../plugins/jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
+<script src="../../plugins/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
 <!-- SlimScroll -->
-<script src="bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
+<script src="../../bower_components/jquery-slimscroll/jquery.slimscroll.min.js"></script>
 <!-- ChartJS -->
-<script src="bower_components/Chart.js/Chart.js"></script>
+<script src="../../bower_components/Chart.js/Chart.js"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="dist/js/pages/dashboard2.js"></script>
+<script src="../../dist/js/pages/dashboard2.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
-<script src="dist/js/persian-datepicker-0.4.5.min.js"></script>
-<script src="dist/js/persian-date-0.1.8.min.js"></script>
+<script src="../../dist/js/demo.js"></script>
+<script src="../../dist/js/persian-datepicker-0.4.5.min.js"></script>
+<script src="../../dist/js/persian-date-0.1.8.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
         $(".example1").pDatepicker({

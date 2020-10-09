@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b78cc314-e425-46a7-8d90-6475d349f0f4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/product/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/product/manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/product/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/archive/manage.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/archive/manage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/archive/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/archive/update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +45,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/archive" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\adobeyar\Storage-Software\pages" />
       <recent name="C:\xampp\htdocs\adobeyar\Storage-Software\pages\archive" />
     </key>
   </component>
@@ -66,6 +69,8 @@
       <workItem from="1601660892454" duration="165000" />
       <workItem from="1601734429583" duration="3612000" />
       <workItem from="1601930413279" duration="1430000" />
+      <workItem from="1601989675335" duration="25000" />
+      <workItem from="1602269293790" duration="1447000" />
     </task>
     <servers />
   </component>
@@ -89,10 +94,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="173" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1601931005065" />
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601564547034">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1601989698559">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601564547034" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601989698559" />
     <state x="473" y="66" key="RollbackChangesDialog" timestamp="1601930863558">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
