@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b78cc314-e425-46a7-8d90-6475d349f0f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/product/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/product/manage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/product/update.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/user/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/user/manage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pages/user/update.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -45,11 +45,12 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pages/user" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\adobeyar\Storage-Software\pages\user" />
       <recent name="C:\xampp\htdocs\adobeyar\Storage-Software\pages" />
       <recent name="C:\xampp\htdocs\adobeyar\Storage-Software\pages\archive" />
     </key>
@@ -71,6 +72,7 @@
       <workItem from="1601930413279" duration="1430000" />
       <workItem from="1601989675335" duration="25000" />
       <workItem from="1602269293790" duration="1447000" />
+      <workItem from="1602351521107" duration="728000" />
     </task>
     <servers />
   </component>
